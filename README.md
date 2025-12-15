@@ -37,7 +37,7 @@ I began the development process by thinking about what I should add first and wh
 
 - **Damage System:** I also made a click-to-damage kind of mechanic where when you click on something, the script sends an event over to another system that checks if the object is or is part of the enemy. If it is, it does damage, and there is a debounce in order to prevent players from spam clicking or using an auto-clicker.
 
-- **Gameplay Systems:** Later on, I also added a camera system where the camera is faced downward onto the character and a system where the game prevents you from jumping. This way, it provides a more RPG feeling and prevents the player from clicking on the enemy from a far distance, and also prevents jumping onto the enemy’s head to avoid damage. I also added a system where if you die, you don't respawn, and instead, the game resets and you are back at square one. You still keep your data, though, because of the database. This is the same for if you purposely reset your character <sup>(Which I do not know why you would do that)</sup> or when you win the game. I also made it so that when you are at the menu screen, you can't move from spawn unless you press the play button.
+- **Gameplay Systems:** Later on, I also added a camera system where the camera is faced downward onto the character and a system where the game prevents you from jumping. This way, it provides a more RPG feeling and prevents the player from clicking on the enemy from a far distance, and also prevents jumping onto the enemy’s head to avoid damage. I also added a system where if you die, you don't respawn, and instead, the game resets and you are back at square one. You still keep your data, though, because of the database. This is the same for if you purposely reset your character <sup>(Which I do not know why you would do that)</sup> or when you win the game. I also made it so that when you are at the menu screen, you can't move from spawn unless you press the play button. There is also a part called trigger that, if you step on it, closes the entrance to the room because of an event that was sent from the trigger being touched.
 
 - **Enemy AI:**
 I coded the enemies to have different behaviors. Enemies have a roaming behavior, where the enemy roams for a certain range if the player isn't in its range; a chasing behavior, which is when the player is in the range of the mob; and an attacking behavior, where the mob attacks and hurts the player by an amount based on what type the enemy is. Balancing the difficulty required me to test a lot to ensure the game remained challenging but fair to new players and players with high levels in the game.
@@ -70,3 +70,7 @@ This is just a rough start for the project that I made. In the future, I will ad
 - I would add more visuals, animations, and sound effects to make the environment more lively.
 
 ---
+
+## GitHub Repository
+
+The source code for this project is available at [GitHub Repo](https://github.com/Pikashocker/Roblox-Dungeon-Rush)
