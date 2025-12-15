@@ -70,7 +70,3 @@ This is just a rough start for the project that I made. In the future, I will ad
 - I would add more visuals, animations, and sound effects to make the environment more lively.
 
 ---
-
-## GitHub Repository
-
-The source code for this project is available at [GitHub Repo](https://github.com/Pikashocker/Roblox-Dungeon-Rush)
