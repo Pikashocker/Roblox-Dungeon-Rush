@@ -1,5 +1,5 @@
 # Dungeon Rush – My CS50 Final Project
-### Video Demo:
+### Video Demo: https://youtu.be/mfoKwtu42ss
 
 ---
 
